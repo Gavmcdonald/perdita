@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #15202B;
 }
@@ -6,15 +8,25 @@ h1 {
     color: #8899A6;
 }
 
+h3 {
+    color: #8899A6;
+    font-size: 1.5rem;
+}
+
 nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 18px;
+    margin: 2%;
 }
 
 nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
     list-style: none;
     margin-right: 2%;
+}
+
+nav li:first-child {
+    margin-right: auto;
 }
 
 nav li {
@@ -69,8 +81,31 @@ main {
 p {
     color: #8899A6;
     font-size: 1.2em;
-    max-width: 50%;
     margin-top: 1%;
     line-height: 1.5;
 
 }
+
+.user-bio {
+    max-width: 50%;
+    text-align: justify;
+}
+
+article {
+    max-width: 60%;
+    align-self: center;
+}
+
+article p {
+    display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+article a {
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #8899A6
+}
+
