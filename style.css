@@ -179,9 +179,36 @@ hr {
 }
 .blog-post {
     width: 50%;
+    margin-bottom: 30px;
+}
+
+.blog-post:last-of-type {
+    margin-bottom: 10rem;
 }
 
 .blog-post-title a {
     text-decoration: none;
     color: purple;
+}
+
+@media (max-width: 700px) {
+    .user-bio {
+        max-width: 90%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    
+}
+
+@media (max-width:1000px) {
+    .blog-post, .post-foot, hr {
+        width: 90%;
+    }
+
+    .post p{
+        max-width: 90%;
+    }
 }

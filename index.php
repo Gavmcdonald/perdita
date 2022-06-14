@@ -10,6 +10,5 @@
     <p class="user-bio">This is where all the lovely things about Shannon will go. There will be lots of lovely
         things here... lots and lots. All sorts of things about how smart she knowing things and all</p>
 
-    </div>
 </main>
 <?php get_footer(); ?>
