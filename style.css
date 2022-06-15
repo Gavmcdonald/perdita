@@ -7,11 +7,16 @@ Tags: resume
 */
 
 :root {
-    --primary-color: purple;
+    --primary-color: #3CB371;
 }
 
 a {
     text-decoration: none;
+}
+
+p a {
+    text-decoration: underline;
+    color: var(--primary-color);
 }
 
 body {
@@ -157,6 +162,7 @@ article a {
 
 .post-date {
     font-size: 0.9rem;
+    font-weight: bold;
 
 }
 
@@ -209,6 +215,38 @@ hr {
     p {
         font-size: 1rem;
     }
+
+    nav {
+        width: 100%;
+        
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 0;
+    }
+    nav li:first-child {
+        flex-basis: 40%;
+        text-align: left;
+        
+        margin-left: 4%;
+    }
+
+    nav li:nth-child(2){
+       flex-basis: 40%;
+    }
+
+    nav li {
+        flex-basis: 100%;
+        text-align: right;
+    }
+
+    h1, h2 {
+        text-align: center;
+        margin-top: 0%;
+    }
+
 
     
 }

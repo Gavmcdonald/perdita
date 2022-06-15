@@ -7,7 +7,7 @@
 <?php
  
  // The Query
- $the_query = new WP_Query( array('author_name' => 'Gavin') );
+ $the_query = new WP_Query( array('post_type' => 'post') );
   
  // The Loop
  if ( $the_query->have_posts() ) {
