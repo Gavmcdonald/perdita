@@ -2,7 +2,7 @@
 Theme Name: Perdita
 Author: Gavin McDonald
 Description: Simple personal resumee theme for Wordpress
-Version: 0.0.2
+Version: 0.1.0
 Tags: resume
 */
 
@@ -10,13 +10,18 @@ Tags: resume
     --primary-color: #3CB371;
 }
 
-a {
+p a {
+    color: var(--primary-color);
+    font-weight: 500;
+    
+}
+
+p a:link {
     text-decoration: none;
 }
 
-p a {
+p a:hover {
     text-decoration: underline;
-    color: var(--primary-color);
 }
 
 body {
@@ -36,6 +41,10 @@ body {
 
 h1, h2 {
     color: var(--primary-color);
+}
+
+h2 a:hover {
+    text-decoration: underline;
 }
 
 h3 {
@@ -73,7 +82,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: black;
+    text-decoration: underline;
 }
 
 main {
