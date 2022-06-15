@@ -43,6 +43,12 @@ function display_email_element()
     	<input type="text" name="email_url" id="email_url" value="<?php echo get_option('email_url'); ?>" />
     <?php
 }
+function display_image_element()
+{
+	?>
+    	<input type="text" name="image_url" id="image_url" value="<?php echo get_option('image_url'); ?>" />
+    <?php
+}
 
 function display_theme_panel_fields()
 {
@@ -51,10 +57,12 @@ function display_theme_panel_fields()
 	add_settings_field("twitter_url", "Twitter Profile Url", "display_twitter_element", "theme-options", "section");
     add_settings_field("linkedin_url", "LinkedIn Profile Url", "display_linkedin_element", "theme-options", "section");
     add_settings_field("email_url", "Send To Email Address", "display_email_element", "theme-options", "section");
-
+    add_settings_field("image_url", "User Image URL", "display_image_element", "theme-options", "section");
+	
     register_setting("section", "twitter_url");
     register_setting("section", "linkedin_url");
-    register_setting("section", "email_url");
+	register_setting("section", "email_url");
+	register_setting("section", "image_url");
 }
 
 add_action("admin_init", "display_theme_panel_fields");

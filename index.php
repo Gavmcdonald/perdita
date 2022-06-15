@@ -3,10 +3,13 @@
 $twitterURL = get_option('twitter_url'); 
 $emailURL = get_option('email_url');
 $linkedinURL = get_option('linkedin_url');
+$imageURL = get_option('image_url');
 ?>
 <main>
     <h1>Shannon Hughes Spence</h1>
-    <img src="<?php echo get_bloginfo('template_directory'); ?>/shannon.jpg" class="user-image"/>
+    <?php if(!empty($emailURL)) : ?>
+        <img src="<?php echo $imageURL; ?>" class="user-image"/>
+    <?php endif; ?>
     <ul class="social">
 
         
