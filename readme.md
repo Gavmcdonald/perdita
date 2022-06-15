@@ -21,6 +21,9 @@
 - [ ] Publications page
 - [ ] Linked in Social  page
 - [ ] Privacy policy (with link in footer) 
+- [ ] Underlink nav link on hover
+- [ ] Add readmore link to end of posts
+- [ ] Handle pagination
 
 ## Future ideas
 - [ ] Dark mode with toggle
