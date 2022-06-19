@@ -171,10 +171,6 @@ article a {
     height: auto;
 }
 
-.post p {
-    max-width: 50%;
-}
-
 .post-date {
     font-size: 0.9rem;
     font-weight: bold;
@@ -238,6 +234,23 @@ hr {
     margin-right: 0;
 }
 
+.resume {
+    font-size: 1rem;;
+}
+.resume > p {
+    font-size: 1rem;
+}
+
+.resume > h2, .resume > h3{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.resume > h3 {
+    font-size: 1rem;
+}
+
 
 @media (max-width: 700px) {
     .user-bio {
@@ -281,6 +294,10 @@ hr {
         margin-top: 0%;
     }
 
+    .resume > h2, .resume > h3 {
+        text-align: left;
+    }
+
 
 
 }
@@ -293,7 +310,19 @@ hr {
         width: 90%;
     }
 
-    .post p, .post img {
-        max-width: 90%;
+    .post p, .post img, .resume > h2, .resume > h3 {
+        width: 90%;
+    }
+}
+
+@media (min-width:1000px) {
+    .blog-post,
+    .post-foot,
+    hr, .post img {
+        max-width: 750px;
+    }
+
+    .post p, .post img, .resume > h2, .resume > h3 {
+        width: 750px;
     }
 }

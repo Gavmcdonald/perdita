@@ -4,12 +4,12 @@
 - Social links on posts don't have hare links (except twitter)
 
 ## To-do
-- [ ] Resume page
 - [ ] Category page
 - [ ] 404 page
-- [ ] Publications page
 - [ ] Privacy policy (with link in footer) 
 - [ ] Add readmore link to end of posts
+- [x] Publications page
+- [x] Resume page
 - [x] Support for featured images on posts
 - [x] Update copyright to use "Name"
 - [x] Handle pagination

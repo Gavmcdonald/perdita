@@ -17,6 +17,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
             <ul>
                 <li><a href="<?php echo get_bloginfo('wpurl'); ?>/index.php">Home</a></li>
                 <li><a href="<?php echo get_bloginfo('wpurl'); ?>/blog">Blog</a></li>
-                <li><a href="<?php echo get_bloginfo('wpurl'); ?>/cv">CV & Publications</a></li>
+                <li><a href="<?php echo get_bloginfo('wpurl'); ?>/cv">Publications</a></li>
             </ul>
         </nav>
