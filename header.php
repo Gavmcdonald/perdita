@@ -14,7 +14,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
 
 <body>
     <div class="layout">
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="<?php echo get_bloginfo('wpurl'); ?>/index.php">Home</a></li>
                 <li><a href="<?php echo get_bloginfo('wpurl'); ?>/blog">Blog</a></li>

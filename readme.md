@@ -10,8 +10,8 @@
 - [ ] Publications page
 - [ ] Privacy policy (with link in footer) 
 - [ ] Add readmore link to end of posts
-- [ ] Update copyright to use "Name"
-- [ ] Handle pagination
+- [x] Update copyright to use "Name"
+- [x] Handle pagination
 - [x] Underline nav link on hover
 - [x] Linked in Social  page
 - [x] Change hardcoded values to options

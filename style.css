@@ -65,7 +65,7 @@ nav ul {
     margin-right: 2%;
 }
 
-nav li:first-child {
+.main-nav li:first-child {
     margin-right: auto;
 }
 
@@ -211,6 +211,7 @@ hr {
 .blog-post {
     width: 50%;
     margin-bottom: 30px;
+    flex: 1;
 }
 
 .blog-post:last-of-type {
@@ -221,6 +222,17 @@ hr {
     text-decoration: none;
     color: var(--primary-color);
 }
+
+.pager {
+    justify-content: space-evenly;
+    margin-bottom: 8%;
+ 
+}
+
+.pager li:first-child {
+    margin-right: 0;
+}
+
 
 @media (max-width: 700px) {
     .user-bio {
@@ -242,18 +254,18 @@ hr {
         padding: 0;
     }
 
-    nav li:first-child {
+    .main-nav li:first-child {
         flex-basis: 40%;
         text-align: left;
 
         margin-left: 4%;
     }
 
-    nav li:nth-child(2) {
+    .main-nav li:nth-child(2) {
         flex-basis: 40%;
     }
 
-    nav li {
+    .main-nav li {
         flex-basis: 100%;
         text-align: right;
     }
