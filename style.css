@@ -1,7 +1,7 @@
 /*
 Theme Name: Perdita
 Author: Gavin McDonald
-Description: Simple personal resumee theme for Wordpress
+Description: Simple personal Resume theme for Wordpress
 Version: 0.1.0
 Tags: resume
 */
@@ -13,7 +13,7 @@ Tags: resume
 p a {
     color: var(--primary-color);
     font-weight: 500;
-    
+
 }
 
 p a:link {
@@ -39,7 +39,8 @@ body {
     height: 90vh;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: var(--primary-color);
 }
 
@@ -183,7 +184,7 @@ article a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+
 }
 
 .post-foot ul {
@@ -196,12 +197,17 @@ article a {
     height: 30px;
 }
 
+.post-foot ul li a:hover {
+    color: black;
+}
+
 hr {
     border-top: 0.5px solid black;
     width: 50%;
     margin-bottom: 0;
 
 }
+
 .blog-post {
     width: 50%;
     margin-bottom: 30px;
@@ -227,7 +233,7 @@ hr {
 
     nav {
         width: 100%;
-        
+
     }
 
     nav ul {
@@ -235,15 +241,16 @@ hr {
         gap: 8px;
         padding: 0;
     }
+
     nav li:first-child {
         flex-basis: 40%;
         text-align: left;
-        
+
         margin-left: 4%;
     }
 
-    nav li:nth-child(2){
-       flex-basis: 40%;
+    nav li:nth-child(2) {
+        flex-basis: 40%;
     }
 
     nav li {
@@ -251,21 +258,25 @@ hr {
         text-align: right;
     }
 
-    h1, h2 {
+    h1,
+    h2 {
         text-align: center;
         margin-top: 0%;
     }
 
 
-    
+
 }
 
 @media (max-width:1000px) {
-    .blog-post, .post-foot, hr {
+
+    .blog-post,
+    .post-foot,
+    hr {
         width: 90%;
     }
 
-    .post p{
+    .post p {
         max-width: 90%;
     }
 }
