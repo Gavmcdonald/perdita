@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 <main class="post">
     <h2 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
+    <?php if (has_post_thumbnail()) {
+        the_post_thumbnail();
+    } ?>
     <?php the_content(); ?>
     <hr>
     <div class="post-foot">

@@ -166,6 +166,11 @@ article a {
     color: black
 }
 
+.post img {
+    max-width: 50%;
+    height: auto;
+}
+
 .post p {
     max-width: 50%;
 }
@@ -284,11 +289,11 @@ hr {
 
     .blog-post,
     .post-foot,
-    hr {
+    hr, .post img {
         width: 90%;
     }
 
-    .post p {
+    .post p, .post img {
         max-width: 90%;
     }
 }

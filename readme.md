@@ -10,6 +10,7 @@
 - [ ] Publications page
 - [ ] Privacy policy (with link in footer) 
 - [ ] Add readmore link to end of posts
+- [x] Support for featured images on posts
 - [x] Update copyright to use "Name"
 - [x] Handle pagination
 - [x] Underline nav link on hover
@@ -17,6 +18,7 @@
 - [x] Change hardcoded values to options
 
 ## Future ideas
+- [ ] Support wordpress Nav items ![WP docs](https://developer.wordpress.org/themes/functionality/navigation-menus/)
 - [ ] Dark mode with toggle
 - [ ] Option to change primary colour
 - [ ] Add more social options
